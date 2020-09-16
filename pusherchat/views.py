@@ -5,10 +5,10 @@ from django.views.decorators.csrf import csrf_exempt
 from pusher import Pusher
 
 pusher = Pusher(
-    app_id='1074046',
-    key='3915806f9a7fb108e5a7',
-    secret='8dcc653b00346da5c879',
-    cluster='us3',
+    app_id='YOUR_APP_ID',
+    key='YOUR_APP_KEY',
+    secret='YOUR_APP_SECRET',
+    cluster='YOUR_CLUSTER',
     ssl=True
 )
 
